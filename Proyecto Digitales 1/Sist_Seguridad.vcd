@@ -1,0 +1,471 @@
+$date
+	Tue Feb 27 19:03:15 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Sist_Seguridad_tb $end
+$var wire 1 ! vo $end
+$var wire 1 " v1 $end
+$var wire 1 # rst $end
+$var wire 1 $ ro $end
+$var wire 1 % pw $end
+$var wire 1 & po $end
+$var wire 1 ' p1 $end
+$var wire 1 ( mo $end
+$var wire 1 ) m1 $end
+$var wire 1 * lo $end
+$var wire 1 + io $end
+$var wire 1 , ho $end
+$var wire 1 - clk $end
+$var wire 1 . ao $end
+$scope module maquina $end
+$var wire 1 ! vo $end
+$var wire 1 " v1 $end
+$var wire 1 # rst $end
+$var wire 1 $ ro $end
+$var wire 1 % pw $end
+$var wire 1 & po $end
+$var wire 1 ' p1 $end
+$var wire 1 ( mo $end
+$var wire 1 ) m1 $end
+$var wire 1 , ho $end
+$var wire 1 - clk $end
+$var parameter 3 / a $end
+$var parameter 3 0 b $end
+$var parameter 3 1 c $end
+$var parameter 3 2 d $end
+$var parameter 3 3 e $end
+$var parameter 3 4 f $end
+$var reg 1 . ao $end
+$var reg 3 5 estado_actual [2:0] $end
+$var reg 3 6 estado_futuro [2:0] $end
+$var reg 1 + io $end
+$var reg 1 * lo $end
+$upscope $end
+$scope module patitos_s_a $end
+$var wire 1 . ao $end
+$var wire 1 + io $end
+$var wire 1 * lo $end
+$var reg 1 - clk $end
+$var reg 1 , ho $end
+$var reg 1 ) m1 $end
+$var reg 1 ( mo $end
+$var reg 1 ' p1 $end
+$var reg 1 & po $end
+$var reg 1 % pw $end
+$var reg 1 $ ro $end
+$var reg 1 # rst $end
+$var reg 1 " v1 $end
+$var reg 1 ! vo $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 4
+b100 3
+b11 2
+b10 1
+b111 0
+b0 /
+$end
+#0
+$dumpvars
+b0 6
+b0 5
+0.
+0-
+x,
+0+
+0*
+x)
+x(
+x'
+x&
+x%
+x$
+1#
+x"
+x!
+$end
+#1
+0#
+1-
+#2
+0-
+#3
+1-
+0,
+#4
+0-
+#5
+1-
+1%
+#6
+0-
+#7
+b111 5
+b111 6
+1-
+1$
+#8
+0-
+#9
+1-
+0$
+0%
+#10
+0-
+#11
+1-
+#12
+0-
+#13
+b0 6
+b0 5
+1-
+1#
+#14
+0-
+1"
+0#
+#15
+1-
+#16
+0-
+0"
+#17
+1-
+#18
+0-
+#19
+1-
+#20
+0-
+1#
+#21
+b111 5
+b111 6
+1-
+1$
+1%
+0#
+#22
+0-
+#23
+1-
+#24
+0-
+#25
+b0 5
+1-
+1#
+#26
+b0 6
+0-
+0$
+0%
+0#
+#27
+1-
+#28
+0-
+#29
+1-
+#30
+0-
+1#
+#31
+b111 5
+b111 6
+1-
+1$
+1%
+0#
+#32
+0-
+#33
+1-
+#34
+0-
+#35
+1.
+1*
+b10 5
+b10 6
+1-
+0$
+0%
+1!
+#36
+0-
+#37
+1-
+0!
+#38
+0-
+#39
+1-
+#40
+0-
+#41
+0.
+0*
+b0 6
+b0 5
+1-
+1#
+#42
+b111 6
+0-
+1$
+1%
+0#
+#43
+b111 5
+1-
+#44
+0-
+#45
+1-
+#46
+b11 6
+0-
+0$
+1&
+#47
+1*
+b0 6
+b11 5
+1-
+#48
+0-
+0&
+#49
+0*
+b0 5
+1-
+#50
+0-
+#51
+1-
+#52
+0-
+1#
+#53
+b111 5
+b111 6
+1-
+1$
+0#
+#54
+0-
+#55
+1-
+#56
+0-
+#57
+1*
+b11 5
+b100 6
+1-
+0%
+0$
+1'
+#58
+0-
+#59
+b10 6
+b100 5
+1-
+0'
+#60
+0-
+#61
+1.
+b10 5
+1-
+#62
+0-
+#63
+0.
+0*
+b0 6
+b0 5
+1-
+1#
+#64
+b111 6
+0-
+1$
+1%
+0#
+#65
+b111 5
+1-
+#66
+0-
+#67
+1-
+#68
+b1 6
+0-
+0%
+0$
+1,
+#69
+1*
+1+
+b1 5
+1-
+#70
+0-
+0,
+#71
+1-
+#72
+0-
+#73
+1-
+#74
+0*
+0+
+b0 6
+b0 5
+0-
+1#
+#75
+1-
+0#
+#76
+0-
+#77
+1*
+1+
+b1 5
+b1 6
+1-
+1,
+#78
+0-
+#79
+1-
+0,
+#80
+0-
+#81
+1-
+#82
+0-
+#83
+0*
+0+
+b0 6
+b0 5
+1-
+1#
+#84
+b111 6
+0-
+1$
+1%
+0#
+#85
+b111 5
+1-
+#86
+0-
+0%
+0$
+#87
+1-
+#88
+0-
+#89
+1-
+#90
+b10 6
+0-
+1(
+#91
+1.
+1*
+b10 5
+1-
+#92
+0-
+#93
+1-
+#94
+b0 6
+0-
+1%
+#95
+0.
+0*
+b0 5
+1-
+#96
+0-
+0%
+0(
+#97
+1-
+#98
+0-
+#99
+1-
+#100
+0-
+1#
+#101
+1*
+1+
+b1 5
+b1 6
+1-
+1,
+0#
+#102
+0-
+#103
+1-
+#104
+0-
+#105
+0*
+0+
+b0 5
+b0 6
+1-
+0,
+1%
+#106
+0-
+#107
+1-
+0%
+#108
+0-
+#109
+1-
+#110
+0-
+#111
+1-
+#112
+0-
+#113
+1-
+#114
+0-
+#115
+1-
+#116
+0-
+#117
+1-

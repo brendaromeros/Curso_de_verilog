@@ -1,0 +1,24 @@
+**** module/scope: calle_testbench
+     Flip-Flops   : 0
+     Logic Gates  : 0
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
+**** module/scope: calle_testbench.DUT
+     Flip-Flops   : 2
+     Logic Gates  : 34
+     EQUALITY[2]: 4 units
+     MUX[2]: 6 slices
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
+**** module/scope: calle_testbench.tester
+     Flip-Flops   : 0
+     Logic Gates  : 0
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
+**** TOTALS
+     Flip-Flops   : 2
+     Logic Gates  : 34
+     EQUALITY[2]: 4 units
+     MUX[2]: 6 slices
+     LOG[13]: 3 unaccounted
+     LOG[14]: 3 unaccounted
