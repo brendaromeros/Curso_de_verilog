@@ -14,20 +14,20 @@ Para utilizar el programa, sigue estos pasos:
      cd Curso_de_verilog/Tarea\ 3
      ```
 
-3. **Ejecutar el Comando `make`:**
+2. **Ejecutar el Comando `make`:**
    - Ejecuta:
      ```sh
      make
      ```
    - Este comando compila el proyecto, revisa los archivos en busca de problemas y genera el archivo `.vcd` necesario para la simulación.
 
-4. **Visualización Automática:**
+3. **Visualización Automática:**
    - Una de las ventajas es que `make` abre automáticamente GTKwave, una herramienta de visualización que permite inspeccionar y analizar el comportamiento de los circuitos simulados.
 
-5. **Limpieza del Proyecto:**
+4. **Limpieza del Proyecto:**
    - `make` se encarga de eliminar los archivos temporales generados durante la compilación y simulación, manteniendo el entorno de trabajo ordenado.
 
-6. **Acciones Independientes:**
+5. **Acciones Independientes:**
    - Si lo prefieres, cada acción puede ejecutarse de forma independiente usando las siguientes banderas:
      - **Compilar:**  
        ```sh
