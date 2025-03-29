@@ -8,30 +8,26 @@ En este laboratorio se implementó un controlador para los semáforos peatonales
 
 Para utilizar el programa, sigue los pasos a continuación:
 
-1. **Descargar y Extraer el Proyecto:**
-   - Descarga el archivo ZIP del repositorio.
-   - Descomprímelo en el directorio de tu elección.
-
-2. **Ubicarte en la Carpeta del Proyecto:**
+1.  **Ubicarte en la Carpeta del Proyecto:**
    - Abre una terminal y navega hasta la carpeta del proyecto:
      ```sh
      cd ruta/al/proyecto
      ```
 
-3. **Ejecutar el Comando `make`:**
+2. **Ejecutar el Comando `make`:**
    - Ejecuta:
      ```sh
      make
      ```
    - Este comando compila automáticamente el proyecto, revisando los archivos en busca de problemas y generando el archivo `.vcd` necesario para el análisis de la simulación.
 
-4. **Visualización de la Simulación:**
+3. **Visualización de la Simulación:**
    - `make` abre automáticamente GTKwave, una herramienta que permite inspeccionar y analizar el comportamiento de los circuitos simulados, facilitando la comprensión de los resultados.
 
-5. **Limpieza del Proyecto:**
+4. **Limpieza del Proyecto:**
    - `make` se encarga de eliminar los archivos temporales generados durante la compilación y ejecución, manteniendo el entorno de trabajo ordenado.
 
-6. **Ejecución Independiente de Acciones:**
+5. **Ejecución Independiente de Acciones:**
    - También puedes ejecutar cada acción de forma independiente utilizando las siguientes banderas:
      - **Compilar:**  
        ```sh
